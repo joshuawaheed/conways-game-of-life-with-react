@@ -1,0 +1,58 @@
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: normal;
+  font-style: italic;
+  margin: 40px 10px 20px;
+}
+
+.controls {
+  margin: 10px 10px 15px;
+}
+
+.controls button {
+  margin-right: 5px;
+}
+
+.counter {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.board {
+  float: left;
+  width: 400px;
+  border: 10px solid black;
+  border-top-width: 9px;
+  border-left-width: 9px;
+  margin-bottom: 70px;
+}
+
+.cell {
+  float: left;
+  width: 19px;
+  height: 19px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+.cell:active {
+  background-color: #00FF00;
+}
+
+.cell--alive {
+  background-color: #00FF00;
+}
+
+.cell--dead {
+  background-color: white;
+}
+
+.cell--old {
+  background-color: black;
+}
